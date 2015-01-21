@@ -5,8 +5,13 @@
 ---
 status:       PUBLISHED
 technologies: [Android]
-categories:   [UI]
+categories:   [Design, Transitions, Input]
 languages:    [Java]
 solutions:    [Mobile]
 github:       android-Interpolator
+level:        INTERMEDIATE
+icon:         screenshots/icon-web.png
+apiRefs:
+    - android:android.animation.ObjectAnimator
+    - android:android.view.animation.Interpolator
 license: apache2
