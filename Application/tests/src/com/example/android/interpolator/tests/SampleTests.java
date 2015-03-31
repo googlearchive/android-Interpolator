@@ -17,7 +17,8 @@
 package com.example.android.interpolatorplayground.tests;
 
 import com.example.android.interpolator.InterpolatorFragment;
-import com.example.android.interpolatorplayground.*;
+import com.example.android.interpolator.MainActivity;
+import com.example.android.interpolator.R;
 
 import android.animation.ObjectAnimator;
 import android.test.ActivityInstrumentationTestCase2;
