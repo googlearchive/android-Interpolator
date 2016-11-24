@@ -30,17 +30,17 @@ import com.example.android.common.logger.LogWrapper;
 import com.example.android.common.logger.MessageOnlyLogFilter;
 
 /**
- * A simple launcher activity containing a summary sample description, sample log and a custom
+ * A simple launcher activity containing a summary sample description, sample log, and a custom
  * {@link android.support.v4.app.Fragment} which can display a view.
  * <p>
- * For devices with displays with a width of 720dp or greater, the sample log is always visible,
- * on other devices it's visibility is controlled by an item on the Action Bar.
+ * For devices with displays with a width of 720dp or greater, the sample log is always visible.
+ * On other devices, the sample log's visibility is controlled by an item on the Action Bar.
  */
 public class MainActivity extends SampleActivityBase {
 
     public static final String TAG = "MainActivity";
 
-    // Whether the Log Fragment is currently shown
+    // Whether the Log Fragment is currently shown.
     private boolean mLogShown;
 
     @Override
@@ -88,7 +88,7 @@ public class MainActivity extends SampleActivityBase {
         return super.onOptionsItemSelected(item);
     }
 
-    /** Create a chain of targets that will receive log data */
+    /** Create a chain of targets that will receive log data. */
     @Override
     public void initializeLogging() {
         // Wraps Android's native log framework.
